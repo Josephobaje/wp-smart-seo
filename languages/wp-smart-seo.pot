@@ -1,0 +1,202 @@
+# Translations template for WP Smart SEO.
+# Copyright (C) 2026 Joseph Obaje
+# This file is distributed under the MIT license.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Smart SEO 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/Josephobaje/wp-smart-seo/issues\n"
+"POT-Creation-Date: 2026-10-07 09:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/class-meta-box.php:60 includes/class-settings-page.php:58
+msgid "Smart SEO"
+msgstr ""
+
+#: includes/class-meta-box.php:87
+msgid "Search result preview"
+msgstr ""
+
+#: includes/class-meta-box.php:94
+msgid "SEO title"
+msgstr ""
+
+#: includes/class-meta-box.php:98
+msgid ""
+"Leave empty to use the title template from Settings → Smart SEO. Aim for 50–"
+"60 characters."
+msgstr ""
+
+#: includes/class-meta-box.php:102
+msgid "Meta description"
+msgstr ""
+
+#: includes/class-meta-box.php:106
+msgid ""
+"Leave empty to use the excerpt or the start of the content. Aim for 120–160 "
+"characters."
+msgstr ""
+
+#: includes/class-meta-box.php:110
+msgid "Canonical URL"
+msgstr ""
+
+#: includes/class-meta-box.php:112
+msgid "Only set this if the same content lives at another URL."
+msgstr ""
+
+#: includes/class-meta-box.php:118
+msgid "Hide this content from search engines (noindex) and the XML sitemap"
+msgstr ""
+
+#. translators: %d: page number.
+#: includes/class-meta-resolver.php:87
+#, php-format
+msgid "Page %d"
+msgstr ""
+
+#: includes/class-settings-page.php:57
+msgid "Smart SEO Settings"
+msgstr ""
+
+#: includes/class-settings-page.php:73
+msgid "Settings"
+msgstr ""
+
+#: includes/class-settings-page.php:105
+msgid "Titles & descriptions"
+msgstr ""
+
+#: includes/class-settings-page.php:106
+msgid "Social sharing"
+msgstr ""
+
+#: includes/class-settings-page.php:107
+msgid "Structured data (JSON-LD)"
+msgstr ""
+
+#: includes/class-settings-page.php:108
+msgid "Sitemap & indexing"
+msgstr ""
+
+#: includes/class-settings-page.php:115
+msgid "Title separator"
+msgstr ""
+
+#: includes/class-settings-page.php:118
+msgid "Post title template"
+msgstr ""
+
+#. translators: %s: list of template variables.
+#: includes/class-settings-page.php:122
+#, php-format
+msgid "Variables: %s"
+msgstr ""
+
+#: includes/class-settings-page.php:124
+msgid "Home title template"
+msgstr ""
+
+#: includes/class-settings-page.php:125
+msgid "Home meta description"
+msgstr ""
+
+#: includes/class-settings-page.php:125
+msgid "Falls back to the site tagline."
+msgstr ""
+
+#: includes/class-settings-page.php:126
+msgid "Default share image URL"
+msgstr ""
+
+#: includes/class-settings-page.php:126
+msgid "Used when a post has no featured image. 1200 × 630 px recommended."
+msgstr ""
+
+#: includes/class-settings-page.php:127
+msgid "X (Twitter) username"
+msgstr ""
+
+#: includes/class-settings-page.php:127
+msgid "For example @yourbrand."
+msgstr ""
+
+#: includes/class-settings-page.php:128
+msgid "Site represents"
+msgstr ""
+
+#: includes/class-settings-page.php:129
+msgid "Organization or person name"
+msgstr ""
+
+#: includes/class-settings-page.php:129
+msgid "Defaults to the site title."
+msgstr ""
+
+#: includes/class-settings-page.php:130
+msgid "Logo / photo URL"
+msgstr ""
+
+#: includes/class-settings-page.php:131
+msgid "Social profiles"
+msgstr ""
+
+#: includes/class-settings-page.php:131
+msgid "One URL per line (LinkedIn, GitHub, Facebook, ...)."
+msgstr ""
+
+#: includes/class-settings-page.php:132
+msgid "XML sitemap"
+msgstr ""
+
+#: includes/class-settings-page.php:132
+msgid "Enable the XML sitemap"
+msgstr ""
+
+#: includes/class-settings-page.php:133
+msgid "Include post types"
+msgstr ""
+
+#: includes/class-settings-page.php:134
+msgid "Core sitemap"
+msgstr ""
+
+#: includes/class-settings-page.php:134
+msgid "Disable the built-in wp-sitemap.xml to avoid duplicates"
+msgstr ""
+
+#: includes/class-settings-page.php:135
+msgid "Search results"
+msgstr ""
+
+#: includes/class-settings-page.php:135
+msgid "Noindex internal search result pages"
+msgstr ""
+
+#: includes/class-settings-page.php:136
+msgid "Date archives"
+msgstr ""
+
+#: includes/class-settings-page.php:136
+msgid "Noindex date archives (thin, duplicate content)"
+msgstr ""
+
+#: includes/class-settings-page.php:179
+msgid "An organization or business"
+msgstr ""
+
+#: includes/class-settings-page.php:180
+msgid "A person"
+msgstr ""
+
+#: includes/class-settings-page.php:224
+msgid "Your XML sitemap:"
+msgstr ""

@@ -1,0 +1,39 @@
+{
+    "name": "josephobaje/wp-smart-seo",
+    "description": "Lightweight WordPress SEO plugin: meta titles and descriptions, Open Graph and Twitter cards, JSON-LD schema, XML sitemap and canonical URLs.",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joseph Obaje",
+            "email": "josephobaje264@gmail.com",
+            "homepage": "https://github.com/Josephobaje"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "brain/monkey": "^2.6",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "phpcompatibility/phpcompatibility-wp": "^2.1",
+        "phpunit/phpunit": "^10.5 || ^11.5",
+        "wp-coding-standards/wpcs": "^3.1"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WP_Smart_SEO\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "sort-packages": true
+    },
+    "scripts": {
+        "lint": "phpcs",
+        "lint:fix": "phpcbf",
+        "test": "phpunit"
+    }
+}
